@@ -1,0 +1,45 @@
+@import url('normalize.css');
+@import url('skeleton.css');
+
+:root{
+    --primario: rgb(206, 237, 255);
+    --secundario: #33C3F0;
+}
+
+header h1 {
+    text-align: center;
+    color: var(--secundario);
+    background-color: var(--primario);
+}
+
+header h2 {
+    text-align: center;
+    color: var(--secundario);
+}
+
+.ejemplo{
+    padding: 1rem;
+}
+
+.ejemplo article{
+    border: 3px solid var(--primario);
+    border-radius: 1rem;
+    padding: 2rem;
+    height: 50vh;
+    position: relative;
+}
+
+.container{
+    width: 80%;
+    max-width: 80%;
+}
+
+.botones{
+    padding: 2rem;
+    background-color: var(--primario);
+}
+
+.paLaDerecha{
+    float: right;
+}
+

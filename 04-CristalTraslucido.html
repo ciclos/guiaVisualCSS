@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>DIV con efecto de cristal traslúcido</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/guia.css">
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body class="container">
+    <header>
+        <div class=row>
+            <h1 class="columns">Guia visual del CSS</h1>
+        </div>
+        <div class="row">
+            <h2 class="columns">DIV con efecto de cristal traslúcido</h2>
+        </div>
+    </header>
+    <main>
+        <section class="row ejemplo">
+            <article class="six columns" style="
+                background-image: url(./images/004-background.jpg);
+                background-position: center;
+                background-size: cover;
+            ">
+                <div style="
+                height:30rem;
+                width:30rem;
+                
+                border-radius: 1rem;
+                background-color: rgba(255, 255, 255, .2);
+                backdrop-filter: blur(5px);
+                ">
+
+                </div>
+            </article>
+            <article class="six columns">
+                <pre>
+                    <code>.parentDiv {
+    background-image: url(./images/004-background.jpg);
+    background-position: center; background-size: cover;
+}
+.innerDiv {
+    height: 30rem; width: 30rem;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, .2);
+    backdrop-filter: blur(5px);
+}</code>
+                </pre>
+            </article>
+        </section>
+        <section class="row botones">
+            <button class="button-primary" onclick="window.location.href='./03-bordesLetras.html'">Anterior</button>
+            <button class="button-primary paLaDerecha">Siguiente</button>
+        </section>
+
+
+</body>
+
+</html>

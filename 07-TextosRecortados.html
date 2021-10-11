@@ -18,35 +18,36 @@
       <h1 class="columns">Guia visual del CSS</h1>
     </div>
     <div class="row">
-      <h2 class="columns">Boton Redondo</h2>
+      <h2 class="columns">Recortar Textos</h2>
     </div>
   </header>
   <main>
     <section class="row ejemplo">
       <article class="six columns">
         <div>
-          <input style="display: block; width: 150px;height: 150px;border-radius: 50%;" 
-           type="button" name="boton" value="Pulsame!">
+          <p style=" width: 230px;white-space: nowrap; text-overflow: ellipsis; overflow: hidden;">
+            Hola este es un ejercicio de prueba para comprobar
+        </p>
         </div>
       </article>
       <article class="six columns">
 
         <pre>
           <code>
-            .redondo{
-              display: block;
-              width: 50px;
-              height: 50px;
-              border-radius: 50%;
-            }
+            .texto {
+                width: 230px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+          }
           </code>
         </pre>
 
       </article>
     </section>
     <section class="row botones">
-      <button class="button-primary" onclick="window.location.href='./05-TextoConImagen.html'">Anterior</button>
-      <button class="button-primary paLaDerecha"onclick="window.location.href='./07-TextosRecortados.html'">Siguiente</button>
+      <button class="button-primary" onclick="window.location.href='./06-BotonRedondo.html'">Anterior</button>
+      <button class="button-primary paLaDerecha">Siguiente</button>
     </section>
 
 </body>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Centrado vertical</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/guia.css">
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body class="container">
+  <header>
+    <div class=row>
+      <h1 class="columns">Guia visual del CSS</h1>
+    </div>
+    <div class="row">
+      <h2 class="columns">Nav horizontal</h2>
+    </div>
+  </header>
+  <main>
+    <section class="row ejemplo">
+      <article class="six columns">
+        <nav>
+          <ul>
+            <li style="display:inline-block; width:20%; text-align:center; background-color: lavender; border: 1px solid black"><a href="#" style="display:block; text-decoration: none">Inicio</a></li>
+            <li style="display:inline-block; width:20%; text-align:center; background-color: lavender; border: 1px solid black"><a href="#" style="display:block; text-decoration: none">Tiendas</a></li>
+            <li style="display:inline-block; width:20%; text-align:center; background-color: lavender; border: 1px solid black"><a href="#" style="display:block; text-decoration: none">Localización</a></li>
+            <li style="display:inline-block; width:20%; text-align:center; background-color: lavender; border: 1px solid black"><a href="#" style="display:block; text-decoration: none">Contacto</a></li>
+          </ul>
+        </nav>
+      </article>
+      <article class="six columns">
+
+        <pre>
+          <code>nav a {
+  text-decoration: none;
+  display: block;   //El enlace ocupa su contenedor
+}
+nav li {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  border: solid 1px black;
+  background-color: lavender;
+}
+          </code>
+        </pre>
+
+      </article>
+    </section>
+    <section class="row botones">
+      <button class="button-primary" onclick="window.location.href='09-CentradoVertical.html'">Anterior</button>
+      <button class="button-primary paLaDerecha">Siguiente</button>
+    </section>
+  </main>
+
+
+</body>
+
+</html>

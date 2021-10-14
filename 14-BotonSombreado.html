@@ -18,31 +18,37 @@
       <h1 class="columns">Guia visual del CSS</h1>
     </div>
     <div class="row">
-      <h2 class="columns">Subrayado y Sobrelineado</h2>
+      <h2 class="columns">Botón sombreado.</h2>
     </div>
   </header>
   <main>
     <section class="row ejemplo">
       <article class="six columns">
-        <div style="text-decoration: underline overline blueviolet 0.3em;">
-            Subrayado y Sobrelineado
-        </div>
+        <p style="text-align: center">
+            <button style="border-radius: 1em 0em 1em 0em; background-color: brown; color: wheat; box-shadow: 5px 5px 8px rgb(19, 209, 235);">
+                <a href="https://www.google.es" style="color: darkblue;">VAMONOS</a>
+            </button> 
+        </p>
       </article>
       <article class="six columns">
-
         <pre>
-          <code>
-            
-            text-decoration: underline overline blueviolet 0.3em;
-          
+          <code>p{
+    text-align: center;    
+}
+button{
+    border-radius: 1em 0em 1em 0em; 
+    background-color: brown; 
+    color: wheat; 
+    box-shadow: 5px 5px 8px rgb(19, 209, 235);
+}
+a{color: darkblue;}
           </code>
         </pre>
-
       </article>
     </section>
     <section class="row botones">
-        <button class="button-primary" onclick="window.location.href='12-BordeDoble.html'">Anterior</button>
-      <button class="button-primary paLaDerecha" onclick="window.location.href='14-BotonSombreado.html'">Siguiente</button>
+      <button class="button-primary" onclick="window.location.href='13-SubrayadoSobrelineado.html'">Anterior</button>
+      <button class="button-primary paLaDerecha" onclick="window.location.href='index.html'">Siguiente</button>
     </section>
   </main>
 
